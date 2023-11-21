@@ -1,0 +1,239 @@
+body{
+    margin:0;
+    
+}
+.navigation{
+    width: 100%;
+    height:84px;
+    background: #fff;
+    position: fixed;
+    z-index: 4;
+    box-shadow:0px 3px 15px gray;
+}
+.logo1{
+    width:150px;
+    height:83px;
+    position: absolute; 
+    margin-left: 46px;
+}
+.red{
+    color: #ed1b24;
+}
+.menudiv{
+    
+    margin-right: 0;
+    margin-left: 700px;
+}
+.nav-ul{
+    list-style-type:none;
+    font-size: 17px;
+    font-weight: 600px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; 
+      
+}
+.nav-li{
+    float:left;
+    padding: 15px;
+    color:#333;
+    text-underline-offset: 10px;
+}
+.nav-li:hover{
+    color:#ed1b24;
+    text-decoration: underline;
+}
+.firstdiv
+{     
+    background-image: url(/unclejohn/unphotos/firstimg.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.secondiv{
+    width:100%;
+    height:150px;
+    background-color: #faf6f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+
+}
+.secondheding{
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    background: #0052a1;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 0px 57px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;     
+}
+.icecreams{
+    width: 1114px;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 117.5px;
+}
+.ice-row{
+    width:350px;
+    height:318px;
+    text-align: center;
+    background-color: #f2e4cf;
+
+    
+}
+.ice-img{
+    width: 280px;
+    height:248px;
+}
+.text{
+    font-size: 19px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; 
+    background-color: #0052a1;
+    color: #fff;
+    padding: 15px;
+    font-weight: 100;
+      
+}
+.text:hover{
+    background-color: #ed1b24;
+}
+.view{
+    width: 100%;
+    height:150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.view-text{
+    width: 151.656px;
+    height:35px;
+    font-size: 15px;
+    font-weight: 600px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-radius: 2px;
+    background-color:#ed1b24;
+    color: white;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.view-text:hover{
+    background-color: #2e6da4;
+}
+.arrow{
+    height: 24px;
+    width: 24px;
+
+}
+.aboutdiv{
+    
+    background-image: url(/unclejohn/unphotos/backgroung.jpg);
+    width: 100%;
+    height: 454.312px;
+    z-index: 2;
+    background-size: cover;
+    position: relative;
+   
+}
+.aboutimg{
+    position: absolute;
+    width: 457px;
+    height: 454px;
+    background-image: url(/unclejohn/unphotos/fourth.png);
+    background-size: cover;
+    right: 102px;
+    bottom: 1px;
+     
+}
+.content{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 500;
+    color:#0052a1;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    left: 52px;
+    top: 28px;
+}
+.unclejohn{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ed1b24;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 109px;
+    left: 102px;
+    
+}
+.para{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 30px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top:176px;
+    left:102px
+}
+.read{
+    position: absolute;
+    width: 124.65px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 600px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color:#ed1b24;
+    color: white;
+    outline: none;
+    padding: 14px 23px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content:space-around;
+    border-radius: 5px;
+    top: 310px;
+    left:102px   
+}
+.read:hover{
+    background-color: #2e6da4;
+}
+.foot{
+    position: relative;
+    width: 100%;
+    height: 169.35px; 
+    background-color: #fbf2f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+}
+.imgdiv{
+    width: 60px;
+    height: 49px;
+}
+.footlogo{
+    width: 60px;
+    height: 49px;
+    position: absolute;
+}
+.foot-text{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #000;
+    position: absolute;
+    top: 114px;
+    font-family:" Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
